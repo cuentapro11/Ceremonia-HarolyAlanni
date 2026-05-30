@@ -54,7 +54,7 @@ function showDressCode() {
 }
 
 function showGifts() {
-    window.open('https://cuentapro11.github.io/Numero30-5-26/', '_blank');
+    window.open('https://cuentapro11.github.io/NumeroCuenta/', '_blank');
 }
 
 function confirmAttendance() {
