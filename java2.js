@@ -1,13 +1,10 @@
-// Variables globales
 let currentSlide = 0;
 let totalSlides = 0;
 
-// Inicializar cuando el DOM esté listo
 document.addEventListener('DOMContentLoaded', function() {
     initializeCountdown();
 });
 
-// Countdown
 function initializeCountdown() {
     const targetDate = new Date('2026-10-24T15:00:00').getTime();
     
@@ -37,7 +34,6 @@ function initializeCountdown() {
     setInterval(updateCountdown, 1000);
 }
 
-// Funciones de los botones
 function openLocation(location) {
     const urls = {
         ceremony: "https://maps.app.goo.gl/hXBP9T1xPPegVVPi9"
@@ -61,7 +57,6 @@ function confirmAttendance() {
     window.open('https://docs.google.com/forms/d/e/1FAIpQLScOvdLI2C1U0uNq97cPeuAlCU3hc0ZcgJEtL7T1ZwVEMdUMVQ/viewform?usp=publish-editor', '_blank');
 }
 
-// Sistema de Toast
 function showToast(title, message) {
     const toast = document.getElementById('toast');
     const toastContent = document.getElementById('toastContent');
