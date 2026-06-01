@@ -111,12 +111,14 @@ body {
     font-size: 1.25rem;
     margin-bottom: 1rem;
     font-weight: 300;
+    color: hsl(var(--gold));
 }
 
 .names {
     font-size: 4rem;
     margin-bottom: 1.5rem;
     font-weight: 400;
+    color: hsl(var(--gold));
 }
 
 .ampersand {
@@ -129,6 +131,7 @@ body {
     font-weight: 300;
     line-height: 1.6;
     margin-bottom: 2rem;
+    color: hsl(var(--gold));
 }
 
 .scroll-indicator {
