@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alanni & Harol - Invitación de Boda</title>
+    <title>Harol & Alanni - Invitación de Boda</title>
     <link rel="stylesheet" href="ccs-2.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://cdn.lordicon.com/lordicon.js"></script>
@@ -16,12 +16,13 @@
         <div class="hero-content">
             <div class="hero-text">
                 <div class="date">24.10.2026</div>
-                <h1 class="names">Alanni <span class="ampersand">&</span> Harol</h1>
+                <h1 class="names"><span class="name-green">Harol</span> <span class="ampersand">&</span> <span class="name-green">Alanni</span></h1>
                 <blockquote class="quote">
-                    "El amor es paciente, es bondadoso. El amor no es envidioso ni jactancioso ni orgulloso.<br />
-                    No se comporta con rudeza, no es egoísta, no se enoja fácilmente, no guarda rencor.<br />
-                    El amor no se deleita en la maldad sino que se regocija con la verdad.<br />
-                    Todo lo disculpa, todo lo cree, todo lo espera, todo lo soporta."
+                    "El amor es sufrido, es benigno; el amor no tiene envidia, el amor no es jactancioso, no se envanece;<br />
+                    no hace nada indebido, no busca lo suyo, no se irrita, no guarda rencor;<br />
+                    no se goza de la injusticia, mas se goza de la verdad.<br />
+                    Todo lo sufre, todo lo cree, todo lo espera, todo lo soporta."<br />
+                    <span class="verse-ref">— 1 Corintios 13:4-7</span>
                 </blockquote>
                 <div class="scroll-indicator">
                     <div class="scroll-mouse">
@@ -35,9 +36,9 @@
     <!-- Content -->
     <div class="content">
 
-        <!-- Countdown — fondo cream (default) -->
+        <!-- Countdown -->
         <section class="countdown-section">
-            <h2 class="section-title">Falta</h2>
+            <h2 class="section-title">Faltan</h2>
             <div class="countdown-container">
                 <div class="countdown-item">
                     <div class="countdown-number" id="days">00</div>
@@ -61,10 +62,9 @@
             </div>
         </section>
 
-        <!-- Ceremony & Celebration — fondo warm-white -->
+        <!-- Ceremony & Celebration -->
         <section class="events-section">
             <div class="events-container">
-                <!-- Ceremony -->
                 <div class="event-card">
                     <div class="event-icon">
                         <lord-icon
@@ -87,17 +87,12 @@
                     </div>
                     <button class="btn-wedding" onclick="openLocation('ceremony')">¿Cómo llegar?</button>
                 </div>
-
-
             </div>
         </section>
 
-        <!-- Party — fondo cream (default) -->
+        <!-- Party -->
         <section class="party-section">
             <div class="party-container">
-                <h2 class="section-title">Fiesta</h2>
-                <p class="section-subtitle">Hagamos juntos una fiesta épica. Aquí algunos detalles a tener en cuenta.</p>
-
                 <div class="party-grid">
                     <!-- Comparte tus fotos -->
                     <div class="party-card">
@@ -139,7 +134,7 @@
             </div>
         </section>
 
-        <!-- Gifts — fondo warm-white -->
+        <!-- Gifts -->
         <section class="gifts-section">
             <div class="gifts-container">
                 <h2 class="section-title">Regalos</h2>
@@ -160,58 +155,11 @@
             </div>
         </section>
 
-        <!-- RSVP — fondo cream (default) -->
-        <section class="rsvp-section">
-            <div class="rsvp-container">
-                <h2 class="section-title">Confirma tu Asistencia</h2>
-                <p class="section-subtitle">Comparte este hermoso momento con nosotros</p>
-                
-                <!-- Icono de carta/formulario con temática de boda, reemplaza el de WhatsApp -->
-                <div class="rsvp-icon">
-                    <svg viewBox="0 0 100 100" width="120" height="120" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:auto;overflow:visible;">
-                        <style>
-                            .env-lid { transform-origin: 50px 38px; animation: openEnvelope 3s ease-in-out infinite; }
-                            @keyframes openEnvelope {
-                                0%,40%  { transform: rotateX(0deg); }
-                                55%,85% { transform: rotateX(-160deg); }
-                                100%    { transform: rotateX(0deg); }
-                            }
-                            .env-heart { animation: heartPop 3s ease-in-out infinite; transform-origin: 50px 52px; }
-                            @keyframes heartPop {
-                                0%,40%  { opacity:0; transform: scale(0) translateY(8px); }
-                                60%,80% { opacity:1; transform: scale(1) translateY(-6px); }
-                                100%    { opacity:0; transform: scale(0) translateY(8px); }
-                            }
-                        </style>
-                        <!-- Sobre -->
-                        <rect x="12" y="38" width="76" height="48" rx="4" fill="#637043" opacity="0.15" stroke="#637043" stroke-width="2"/>
-                        <!-- Líneas de papel -->
-                        <line x1="25" y1="52" x2="75" y2="52" stroke="#637043" stroke-width="1.5" opacity="0.4"/>
-                        <line x1="25" y1="60" x2="65" y2="60" stroke="#637043" stroke-width="1.5" opacity="0.4"/>
-                        <!-- Tapa del sobre animada -->
-                        <g class="env-lid">
-                            <path d="M12,38 L50,62 L88,38 Z" fill="#637043" opacity="0.85"/>
-                        </g>
-                        <!-- Corazón que sale -->
-                        <g class="env-heart">
-                            <path d="M50,48 C50,48 42,41 38,44 C34,47 34,53 38,56 L50,66 L62,56 C66,53 66,47 62,44 C58,41 50,48 50,48 Z" fill="#8B5E3C" opacity="0.9"/>
-                        </g>
-                        <!-- Base del sobre -->
-                        <path d="M12,86 L50,63 L88,86 Z" fill="#637043" opacity="0.5"/>
-                    </svg>
-                </div>
-
-                <div class="hashtag">#AlanniHarol</div>
-                
-                <button class="btn-wedding" onclick="confirmAttendance()">Confirmar Asistencia</button>
-            </div>
-        </section>
-
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-content">
                 <p>Con amor,</p>
-                <h3>Alanni & Harol</h3>
+                <h3>Harol & Alanni</h3>
                 <p class="footer-date">24 de Octubre, 2026</p>
             </div>
         </footer>
