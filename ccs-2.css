@@ -90,7 +90,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: hsl(var(--gold));
     padding: 1rem;
 }
 
