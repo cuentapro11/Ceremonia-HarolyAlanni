@@ -36,7 +36,7 @@ function initializeCountdown() {
 
 function openLocation(location) {
     const urls = {
-        ceremony: "https://maps.app.goo.gl/hXBP9T1xPPegVVPi9"
+        ceremony: "https://maps.app.goo.gl/rNBrZmsXe9N7nwzN6?g_st=ic"
     };
     window.open(urls[location], '_blank');
 }
