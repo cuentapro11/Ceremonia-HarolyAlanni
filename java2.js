@@ -42,7 +42,7 @@ function openLocation(location) {
 }
 
 function sharePhoto() {
-    window.open('https://photos.app.goo.gl/5ZAtK7CHYaCQwgXz7', '_blank');
+    window.open('https://photos.app.goo.gl/oUanUmwPDCBF5yjw7', '_blank');
 }
 
 function showDressCode() {
@@ -54,7 +54,7 @@ function showGifts() {
 }
 
 function confirmAttendance() {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLScOvdLI2C1U0uNq97cPeuAlCU3hc0ZcgJEtL7T1ZwVEMdUMVQ/viewform?usp=publish-editor', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSfihMMzM0r0wmtJ-7TTirHk179zc3e_VRC--UXJwN-v_59SOw/viewform?usp=header', '_blank');
 }
 
 function showToast(title, message) {
